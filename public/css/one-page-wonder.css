@@ -168,14 +168,14 @@ h5 {
 /* TODO: Probably add navbar components */
 .navbar-custom .navbar-brand {
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.05rem;
   letter-spacing: 0.1rem;
   font-weight: 700;
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
 }
@@ -557,7 +557,7 @@ header.masthead .bg-plus-1 {
 }
 
 .about-us-row {
-  gap: 1.5rem, 0rem;
+  --bs-gutter-x: 3rem;
 }
 
 .card {
@@ -598,4 +598,8 @@ header.masthead .bg-plus-1 {
 
 .col {
   width: fit-content;
+}
+
+p{
+  font-size:1.1em
 }
